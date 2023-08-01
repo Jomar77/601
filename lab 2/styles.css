@@ -1,0 +1,29 @@
+/* css file for a simple website*/
+
+/* general styles */
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #333333;
+}
+div {  
+    width: auto;  
+    text-align: center;  
+    padding: 15px;  
+    }  
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+    max-width: 50%;
+    height: auto;
+}
