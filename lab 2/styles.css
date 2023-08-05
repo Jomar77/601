@@ -12,8 +12,27 @@ div {
     padding: 15px;  
     }  
 
+header {
+    background-color: #990000;
+    color: #000000;
+    padding: 0;
+    /*border*/
+    border: 1px solid #000000;    
+}
+
 h1 {
     font-size: 2em;
+    font-weight: bold;
+    padding-left: 3em;
+    color: white;
+    text-align: left;
+    /*capitalize*/
+    text-transform: uppercase;
+}
+nav{
+    padding: 10px;
+    padding-left: 3em;
+    font-size: 1.5em;
     font-weight: bold;
     margin: 0;
     padding: 0;
