@@ -19,7 +19,7 @@ h1 {
     padding: 0;
 }
 
-#imahe{
-    max-width: 100%;
+.imahe{
+    max-width: 50%;
     height: auto;
 }
