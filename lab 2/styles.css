@@ -3,7 +3,7 @@ a {
 }
 
 a:hover {
-    color: #333333;
+    color: #990000;
 }
 
 div {  
@@ -19,14 +19,27 @@ header {
     display: flex;
 }
 
+p{
+    padding: 0 1em 0 1em;
+    color: black;
+    text-align: center;
+}
+
 h1 {
     font-size: 2em;
     font-weight: bold;
     padding-left: 3em;
     color: white;
     text-align: left;
-    /*capitalize*/
     text-transform: uppercase;
+}
+
+h4{
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
 }
 nav{
     padding-left: 4.2em;
