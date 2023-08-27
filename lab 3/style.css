@@ -48,7 +48,7 @@
 .catchy{
   font-weight: bold;
   font-size: 24px; /* Adjust the font size as needed */
-  color: #3b874f; /* Shade of green */
+  color: #427ca3; /* Shade of green */
   background-color: #e0e0e0; /* Tone of grey *//* Light pink background */
   padding: 10px 20px;
   border-radius: 10px;
@@ -92,7 +92,7 @@ div ul li {
   letter-spacing: 1px;
   font-weight: 200;
   margin: 3em 0 0 0;
-  background-color: #aacbaa;
+  background-color: #aac5cb;
   padding: 10%;
   list-style: none;
   border-radius: 10%;
