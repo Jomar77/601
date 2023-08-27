@@ -95,7 +95,7 @@ div ul li {
   background-color: #aac5cb;
   padding: 10%;
   list-style: none;
-  border-radius: 10%;
+  border-radius: 5%;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -117,6 +117,7 @@ body {
 main p {
   font-weight: 300;
   text-align: justify;
+  font-family: 'montserrat', sans-serif;
 }
 footer {
   margin: 0;
