@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .single-column {
+    grid-column: span 2;
+  }
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="grid-item">Row 1, Item 1</div>
+  <div class="grid-item">Row 1, Item 2</div>
+  <div class="grid-item">Row 2, Item 1</div>
+  <div class="grid-item single-column">Row 3, Single Column Item</div>
+</div>
+
+</body>
+</html>

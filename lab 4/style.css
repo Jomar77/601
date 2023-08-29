@@ -1,67 +1,14 @@
 /* Remove float properties */
-[class*="col-"] {
-  padding: 30px;
-  border: 2px solid #ff0000;
-}
-
-/* Update column width classes using CSS Grid */
-.main {
+main{
+  /* grid*/
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 20px;
-}
-
-.col-1 {
-  grid-column: span 1;
-}
-
-.col-2 {
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1em;
+  margin: 1em;
   grid-column: span 2;
-}
-
-.col-3 {
-  grid-column: span 3;
+  text-align: center;
   
-}
-
-.col-4 {
-  grid-column: span 4;
-}
-
-.col-5 {
-  grid-column: span 5;
-}
-
-.col-6 {
-  grid-column: span 6;
-  background-color: #e0e0e0;
-  padding: 10px 20px;
-  border-radius: 0 0 10px 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.col-7 {
-  grid-column: span 7;
-}
-
-.col-8 {
-  grid-column: span 8;
-}
-
-.col-9 {
-  grid-column: span 9;
-}
-
-.col-10 {
-  grid-column: span 10;
-}
-
-.col-11 {
-  grid-column: span 11;
-}
-
-.col-12 {
-  grid-column: span 12;
 }
 
 .catchy{
@@ -168,28 +115,28 @@ footer p {
   margin-left:25%;
 }
 @media screen and (max-width: 1120px) {
-  .main {
-    grid-template-columns: repeat(2, 1fr);
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    justify-content: center;
   }
-
-  .col-4-tab {
-    grid-column: span 1;
-  }
-
-  .col-5-tab {
+  
+  .third-col{
     grid-column: span 2;
   }
-
-  .right-image {
-    grid-column: span 1;
-    width: 100%;
-    height: auto;
-    margin: 0;
+  .cen-hor{
+    text-align: center;
+    display: flex;
+    justify-content: center;
   }
+
+  
 }
 
 @media screen and (max-width: 668px) {
-  .main {
+  main {
     grid-template-columns: 1fr;
     grid-column: span 1;
   }
