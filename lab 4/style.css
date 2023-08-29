@@ -1,6 +1,7 @@
 /* Remove float properties */
 [class*="col-"] {
   padding: 30px;
+  border: 2px solid #ff0000;
 }
 
 /* Update column width classes using CSS Grid */
@@ -20,6 +21,7 @@
 
 .col-3 {
   grid-column: span 3;
+  
 }
 
 .col-4 {
@@ -128,10 +130,9 @@ nav li a:hover {
 }
 body {
   margin: 0;
-  font-family: Roboto;
 }
 
-main p {
+div p {
   font-weight: 300;
   text-align: justify;
   font-family: 'montserrat', sans-serif;
@@ -148,6 +149,9 @@ footer {
 }
 footer p {
   padding: 20px;
+  margin: 0;
+  align-items: center;
+  align-content: center;
 }
 
 .right-image {
@@ -155,28 +159,43 @@ footer p {
   height: auto;
   margin-top:3em;
   margin-bottom:3em;
+  
 }
 
+.third-image{
+  width: 50%;
+  height: auto;
+  margin-left:25%;
+}
 @media screen and (max-width: 1120px) {
+  .main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .col-4-tab {
-    width: 50%;
+    grid-column: span 1;
   }
+
   .col-5-tab {
-    width: 100%;
+    grid-column: span 2;
   }
-  .right-image{
-    width: 32%;
+
+  .right-image {
+    grid-column: span 1;
+    width: 100%;
     height: auto;
-    margin: 0 1px;
+    margin: 0;
   }
 }
 
 @media screen and (max-width: 668px) {
-  [class*="col-"] {
-    width: 100%;
+  .main {
+    grid-template-columns: 1fr;
+    grid-column: span 1;
   }
 
-  .right-image{
+  .right-image {
+    grid-column: span 1;
     width: 100%;
     height: auto;
   }
