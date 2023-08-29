@@ -61,3 +61,123 @@
 .col-12 {
   grid-column: span 12;
 }
+
+.catchy{
+  font-weight: bold;
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #427ca3; /* Shade of green */
+  background-color: #e0e0e0; /* Tone of grey *//* Light pink background */
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'montserrat', sans-serif;
+}
+
+.headerimage {
+  height: auto;
+  max-height: 450px;
+  overflow: hidden;
+  display: flex;
+}
+.headerimage img {
+  height: auto;
+  width: 100%;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5fa0d9;
+  top: 0;
+  width: 100%;
+}
+nav li {
+  float: left;
+}
+nav li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+div ul li {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 200;
+  margin: 3em 0 0 0;
+  background-color: #aac5cb;
+  padding: 10%;
+  list-style: none;
+  border-radius: 5%;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+div ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+nav li a:hover {
+  background-color: #416e95;
+}
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+
+main p {
+  font-weight: 300;
+  text-align: justify;
+  font-family: 'montserrat', sans-serif;
+}
+footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #272727;
+  color: #787878;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+footer p {
+  padding: 20px;
+}
+
+.right-image {
+  width: 100%;
+  height: auto;
+  margin-top:3em;
+  margin-bottom:3em;
+}
+
+@media screen and (max-width: 1120px) {
+  .col-4-tab {
+    width: 50%;
+  }
+  .col-5-tab {
+    width: 100%;
+  }
+  .right-image{
+    width: 32%;
+    height: auto;
+    margin: 0 1px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  .right-image{
+    width: 100%;
+    height: auto;
+  }
+}
