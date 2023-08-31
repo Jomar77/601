@@ -68,8 +68,6 @@ div ul li {
 div ul{
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 nav li a:hover {
@@ -119,7 +117,7 @@ footer p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
-    grid-gap: 10px;
+    grid-gap: 15px;
     justify-content: center;
   }
   
@@ -137,13 +135,27 @@ footer p {
 
 @media screen and (max-width: 668px) {
   main {
+    display: grid;
     grid-template-columns: 1fr;
-    grid-column: span 1;
   }
 
-  .right-image {
+  div ul{
+    padding: 0;
+    margin-bottom: 10%;
+    justify-content: center;
+  }
+  .third-col{
     grid-column: span 1;
+  }
+  .cen-hor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .third-image{
     width: 100%;
     height: auto;
+    margin-left:0%;
   }
+ 
 }
