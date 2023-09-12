@@ -1,7 +1,7 @@
 body{
     margin: 0;
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 260px 1fr;
 }
 
 nav{
@@ -9,6 +9,10 @@ nav{
     flex-direction: column;
 }
 
+.left-side{
+    background-color: #212121;
+    padding: 20px;
+}
 
 
 
