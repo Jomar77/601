@@ -1,17 +1,33 @@
 body{
     margin: 0;
     display: grid;
-    grid-template-columns: 260px 1fr;
+    grid-template-columns: 200px 1fr;
 }
 
 nav{
     display: flex;
     flex-direction: column;
+    background-color: #262626;
+}
+.top-right-logo{
+    margin: 15px 1px;
+    padding: 15px;
 }
 
-.left-side{
-    background-color: #212121;
-    padding: 20px;
+
+.nav-button{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px 0 0 0px;
+    text-decoration: none;
+    color: white   ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* on hover change color */
+.nav-button:hover{
+    background-color: #1b1b1b;
 }
 
 
