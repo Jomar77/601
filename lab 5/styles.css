@@ -26,7 +26,6 @@ nav{
     overflow-y: auto;
 }
 
-
 .nav-button{
     display: flex;
     flex-direction: column;
@@ -69,7 +68,9 @@ nav{
 
 .small{
     display:flex;
+    width: 25%;
     justify-content: space-between;
+    color: #262626;
 }
 .head-gray{
     color: #666666;
