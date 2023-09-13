@@ -40,17 +40,31 @@ nav{
 .nav-button:hover{
     background-color: #1b1b1b;
 }
+.top-left-search{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
 .content-box{
     display: flex;
     flex-direction: column;
     background-color: white;
+    justify-content: center;
     padding: 0 15px;
-    margin: 30px 0 ;
+    margin: 15px 0 ;
     border: #c3c3c3 1px solid;
 }
 .first-header{
     width: 100%;
-    padding: 15px 30px;
+}
+.title-header{
+    max-width: none;
+    
+    padding: 6px 30px;
+    color: #262626;
+    font-family: "Noto Serif",serif;
+    font-size: 1.875rem;
+    font-weight: 400;
 }
 .movement{
     display: flex;
@@ -63,22 +77,26 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 0;
 }
 
 .small{
     display:flex;
-    width: 25%;
+    width: 30%;
+    align-items: center;
     justify-content: space-between;
     color: #262626;
 }
 .head-gray{
     color: #666666;
-    margin: 20px 0;
+    font-weight: 100;
+    font-size: small;
+    margin: 10px 0;
 }
 
 .head-black{
     color: black;
+    font-weight: 100;
     margin: 0;
 }
 
