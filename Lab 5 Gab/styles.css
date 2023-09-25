@@ -2,6 +2,11 @@ body{
     margin: 0;
     padding: 0;
 }
+p{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .main-bg{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -21,8 +26,17 @@ body{
     padding: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center ;
     align-items: center;
+    background-color: #fff500;
+}
+.text-above{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: bowlby one,cursive;
+    color: #f8222c;
+    padding: 20px 5px;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
 }
 main{
     display: flex;
