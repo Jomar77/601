@@ -1,44 +1,60 @@
-body{
-    margin: 0;
-    padding: 0;
+body,
+div {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
 }
-p{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.main-bg{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    background: url(../images/banig.webp) repeat center fixed;
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.topleaf{
-    z-index: 1;
-    position: fixed;
-    margin: 0;
-    padding: 0;
+.banner {
+  margin-top: 80px;
 }
-.image-responsive{
-    max-width: 100%;
+
+.topleaf {
+  z-index: 1;
+  position: fixed;
+  margin: 0;
+  padding: 0;
 }
-.text-right{
-    padding: 50px;
+.image-responsive {
+  max-width: 100%;
+}
+.text-right {
+  padding: 20px 30px;
+  max-height: 385px;
+  max-width: 46%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff500;
+}
+.text-above {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f8222c;
+  padding: 20px 5px;
+  border-bottom: 2px solid #000;
+  border-top: 2px solid #000;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-bg{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: #fff500;
+    height: 40vh;
+    width: 100%;
+    background: url(../images/banig.webp) repeat ;
 }
-.text-above{
-    font-size: 30px;
-    font-weight: bold;
-    font-family: bowlby one,cursive;
-    color: #f8222c;
-    padding: 20px 5px;
-    border-bottom: 2px solid #000;
-    border-top: 2px solid #000;
-}
-main{
-    display: flex;
-    justify-content: space-between;
+.image-main-bg{
+    height: auto;
+    width: 250px;
+    object-fit: cover;
 }
