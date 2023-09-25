@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-bg{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background: url(../images/banig.webp) repeat center fixed;
+}
+
+.topleaf{
+    z-index: 1;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+.image-responsive{
+    max-width: 100%;
+}
+.text-right{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
