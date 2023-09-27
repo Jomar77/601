@@ -1,0 +1,10 @@
+.blackbox{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    z-index: 1;
+}
+
+.hea{
+    z-index: 1;
+}
