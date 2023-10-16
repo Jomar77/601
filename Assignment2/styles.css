@@ -1338,9 +1338,10 @@ footer {
 }
 
 .frame-43 {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
   gap: 16px;
   top: 376px;
   left: 0;
