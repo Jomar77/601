@@ -211,7 +211,7 @@ body {
   height: 1px;
 }
 
-.frame-10 {
+.categories {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -363,10 +363,10 @@ body {
   left: 58px;
 }
 
-.text-wrapper-10 {
-  position: absolute;
-  top: 96px;
-  left: 34px;
+.text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   font-family: "Poppins-Regular", Helvetica;
   font-weight: var(--title-16px-regular-font-weight);
   color: var(--text-2);
@@ -375,6 +375,11 @@ body {
   line-height: var(--title-16px-regular-line-height);
   white-space: nowrap;
   font-style: "Poppins-Regular", Helvetica;
+}
+.text-wrapper-10 {
+  position: absolute;
+  top: 96px;
+  left: 34px;
 }
 
 .category-phone-2 {
@@ -417,10 +422,8 @@ body {
 
 .frame-16 {
   width: 100%;
-  padding-left: 8vw;
   display: flex;
   position: relative;
-  flex: 0 0 auto;
 }
 
 .button {
