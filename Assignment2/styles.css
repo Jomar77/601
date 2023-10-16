@@ -251,6 +251,14 @@ body {
   border-radius: 4px;
 }
 
+.fi-rr-cupcake{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 25px;
+  left: 58px;
+}
+
 .text-wrapper-6 {
   position: relative;
   width: fit-content;
