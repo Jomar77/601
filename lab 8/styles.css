@@ -39,6 +39,9 @@ nav ul li a {
   .options{
     display: none;
   }
+  .active{
+    display: block;
+  }
 
   #menu{
     display: block;       
