@@ -493,7 +493,7 @@ i{
   overflow: hidden;
 }
 
-.overlap-group-2 {
+.overlap-group {
   position: relative;
   width: 218px;
   height: 203px;
@@ -525,19 +525,18 @@ i{
 }
 
 .frame-18 {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
   width: 190px;
   height: 180px;
-  top: 23px;
-  left: 0;
 }
 
 .element {
-  position: absolute;
   width: 140px;
-  height: 146px;
-  top: 17px;
-  left: 25px;
+  height: 140px;
+  clip: auto;
 }
 
 .frame-19 {
@@ -815,7 +814,7 @@ i{
   font-style: var(--title-16px-semibold-font-style);
 }
 
-.frame-27 {
+.explore {
   display: flex;
   flex-direction: column;
   align-items: center;
