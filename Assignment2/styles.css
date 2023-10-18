@@ -476,7 +476,7 @@ i{
 }
 
 .div-2 {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
@@ -493,6 +493,12 @@ i{
   overflow: hidden;
 }
 
+.behind-image{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
 .overlap-group {
   position: relative;
   width: 218px;
@@ -1073,6 +1079,10 @@ i{
 
 .overlap-group-wrapper {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   width: 570px;
   height: 600px;
   background-color: #82624e;
@@ -1081,23 +1091,19 @@ i{
 }
 
 .frame-wrapper {
-  position: relative;
+  display: flex;
   width: 511px;
   height: 511px;
-  top: 89px;
-  left: 29px;
-  background-image: url(./img/ps5-slim-goedkope-playstation-large-1.png);
+  background-image: url(./img/showcase.jpg);
   background-size: 100% 100%;
 }
 
 .frame-35 {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 16px;
-  position: relative;
-  top: 357px;
-  left: 3px;
+  padding-top: 2em;
+  padding-left: 1em;  
 }
 
 .text-wrapper-28 {
@@ -1340,6 +1346,9 @@ i{
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   position: relative;
   width: 100vw;
   height: 340px;
