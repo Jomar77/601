@@ -1007,3 +1007,68 @@ footer {
   white-space: nowrap;
   font-style: var(--title-20px-medium-font-style);
 }
+
+
+.contact{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding:0 5rem;
+}
+ .frame-5{
+  width: 50%px;
+  height: 457px;
+  background-color: var(--primary);
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: var(--categogy-5);
+}
+.frame-5 .frame-6{
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 32px;
+  top: 40px;
+  left: 31px;
+  display: inline-flex;
+  position: relative;
+}
+
+
+.frame-5 .frame-7 {
+  align-items: flex-start;
+  gap: 16px;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.frame-5 .placebox-info {
+  position: relative;
+  width: 235px;
+  height: 50px;
+  background-color: var(--secondary);
+  border-radius: 4px;
+}
+.frame-5 .md-wrapper {
+  position: relative;
+  width: 737px;
+  height: 207px;
+  background-color: var(--secondary);
+  border-radius: 4px;
+}
+
+.frame-5 .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 48px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--button-2);
+  border-radius: 4px;
+  all: unset;
+  box-sizing: border-box;
+}
