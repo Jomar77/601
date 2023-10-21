@@ -5,10 +5,9 @@ body {
   overflow-x: hidden;
 }
 
-section{
+section, main{
   margin:4rem 0;
 }
-
 .top-header {
   width: 100vw;
   height: 46px;
