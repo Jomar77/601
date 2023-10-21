@@ -1072,3 +1072,10 @@ footer {
   all: unset;
   box-sizing: border-box;
 }
+
+.shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
