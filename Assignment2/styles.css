@@ -4,16 +4,17 @@ body {
   width: 100vw;
   overflow-x: hidden;
 }
-button{
+button {
   cursor: pointer;
 }
-a{
+a {
   text-decoration: none;
   cursor: pointer;
 }
 
-section, main{
-  margin:4rem 0;
+section,
+main {
+  margin: 4rem 0;
 }
 
 .view {
@@ -30,6 +31,11 @@ section, main{
   white-space: nowrap;
   font-weight: 16px;
   color: white;
+}
+.view:hover {
+  color: #4e3b2f;
+  background-color: #f1a11a;
+  transition: 0.1s;
 }
 .top-header {
   width: 100vw;
@@ -78,7 +84,7 @@ i[class*="fi fi-rr-search"] {
   margin-right: 48px;
 }
 
-.nav-button{
+.nav-button {
   text-decoration: none;
   font-family: "Poppins-Regular", Helvetica;
   text-align: center;
@@ -393,8 +399,6 @@ i {
   position: relative;
 }
 
-
-
 .text-wrapper-13 {
   position: relative;
   width: fit-content;
@@ -571,7 +575,7 @@ i {
   width: 568px;
   height: 330px;
 }
-.highlights-2{
+.highlights-2 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -1018,16 +1022,15 @@ footer {
   font-style: var(--title-20px-medium-font-style);
 }
 
-
-.contact{
+.contact {
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  padding:0 5rem;
+  padding: 0 5rem;
 }
- .frame-5{
+.frame-5 {
   width: 50%px;
   height: 457px;
   background-color: var(--primary);
@@ -1035,7 +1038,7 @@ footer {
   overflow: hidden;
   box-shadow: var(--categogy-5);
 }
-.frame-5 .frame-6{
+.frame-5 .frame-6 {
   flex-direction: column;
   align-items: flex-end;
   gap: 32px;
@@ -1044,7 +1047,6 @@ footer {
   display: inline-flex;
   position: relative;
 }
-
 
 .frame-5 .frame-7 {
   align-items: flex-start;
