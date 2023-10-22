@@ -4,9 +4,26 @@ body {
   width: 100vw;
   overflow-x: hidden;
 }
+button{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
 
 section, main{
   margin:4rem 0;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  gap: 10px;
+  background-color: rgba(219, 68, 68, 1);
+  border-radius: 4px;
 }
 .top-header {
   width: 100vw;
@@ -370,19 +387,7 @@ i {
   position: relative;
 }
 
-.button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 16px 48px;
-  position: relative;
-  flex: 0 0 auto;
-  background-color: rgba(219, 68, 68, 1);
-  border-radius: 4px;
-  all: unset;
-  box-sizing: border-box;
-}
+
 
 .text-wrapper-13 {
   position: relative;
