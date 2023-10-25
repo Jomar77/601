@@ -186,44 +186,25 @@ i[class*="fi fi-rr-search"] {
 }
 
 .text-wrapper-4 {
-  width: 294px;
-  font-family: var(--heading-48px-semibold-font-family);
-  font-weight: var(--heading-48px-semibold-font-weight);
-  color: var(--text);
-  font-size: var(--heading-48px-semibold-font-size);
-  letter-spacing: var(--heading-48px-semibold-letter-spacing);
-  line-height: var(--heading-48px-semibold-line-height);
-  font-style: var(--heading-48px-semibold-font-style);
+  font-family: var(--heading-20px-semibold-font-family);
+  font-weight: var(--heading-20px-semibold-font-weight);
+  color:black;
+  font-size: var(--heading-20px-semibold-font-size);
+  letter-spacing: var(--heading-20px-semibold-letter-spacing);
+  line-height: var(--heading-20px-semibold-line-height);
+  font-style: var(--heading-20px-semibold-font-style);
 }
 
 .frame-8 {
   display: flex;
-  align-items: center;
-  gap: 8px;
-  top: 269px;
-  left: 67px;
-}
-
-.frame-9 {
-  display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 4px;
-  position: relative;
-  flex: 0 0 auto;
+  align-items: center;
+  border: 2px solid #000000;
+  padding: 5px;
+  width: 20vw;
 }
-
-.line-2 {
-  position: relative;
-  width: 81px;
-  height: 1px;
-  object-fit: cover;
-}
-
-.line-3 {
-  position: relative;
-  width: 1170px;
-  height: 1px;
+.frame-10 {
+  border-bottom: #000000 2px solid;
 }
 
 .categories {
@@ -270,7 +251,6 @@ i {
 }
 
 .text-wrapper-6 {
-  position: relative;
   width: fit-content;
   font-family: var(--title-16px-semibold-font-family);
   font-weight: var(--title-16px-semibold-font-weight);
@@ -280,19 +260,6 @@ i {
   line-height: var(--title-16px-semibold-line-height);
   white-space: nowrap;
   font-style: var(--title-16px-semibold-font-style);
-}
-
-.text-wrapper-7 {
-  position: relative;
-  width: fit-content;
-  font-family: var(--heading-36px-semibold-font-family);
-  font-weight: var(--heading-36px-semibold-font-weight);
-  color: var(--text-2);
-  font-size: var(--heading-36px-semibold-font-size);
-  letter-spacing: var(--heading-36px-semibold-letter-spacing);
-  line-height: var(--heading-36px-semibold-line-height);
-  white-space: nowrap;
-  font-style: var(--heading-36px-semibold-font-style);
 }
 
 .frame-14 {
@@ -1026,10 +993,9 @@ footer {
   width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 3rem;
-  padding: 0 5rem;
+  justify-content: space-evenly;
 }
+
 .frame-5 {
   width: 50%px;
   height: 457px;
