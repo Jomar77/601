@@ -289,12 +289,17 @@ i {
   left: 11px;
 }
 
+
+
 .frame-15 {
   display: flex;
   align-items: flex-start;
   gap: 30px;
   position: relative;
   flex: 0 0 auto;
+}
+#top-frame-15{
+  display: none;
 }
 .category-choice a {
   text-decoration: none;
@@ -977,6 +982,14 @@ footer {
   gap: 15px;
   position: relative;
   flex: 0 0 auto;
+}
+
+.active{
+  display: block;
+}
+
+.hide{
+  display: none;
 }
 
 .text-wrapper-34 {
