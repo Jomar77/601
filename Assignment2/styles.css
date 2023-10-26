@@ -298,9 +298,7 @@ i {
   position: relative;
   flex: 0 0 auto;
 }
-#top-frame-15{
-  display: none;
-}
+
 .category-choice a {
   text-decoration: none;
   color: #ce9b7b;
@@ -984,8 +982,10 @@ footer {
   flex: 0 0 auto;
 }
 
+
+
 .active{
-  display: block;
+  display: flex;
 }
 
 .hide{
