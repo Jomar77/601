@@ -982,12 +982,6 @@ footer {
   flex: 0 0 auto;
 }
 
-
-
-.active{
-  display: flex;
-}
-
 .hide{
   display: none;
 }
