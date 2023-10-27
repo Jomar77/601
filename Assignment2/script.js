@@ -8,3 +8,9 @@ function toggleMenu() {
     let menuBox2 = document.getElementById('bottom-frame-15');
     menuBox2.classList.toggle('hide');
 }
+
+function Gotop() {
+    // with transition
+    window.scrollTo({top:0,behavior:'smooth'});
+    
+}
