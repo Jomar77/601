@@ -253,6 +253,10 @@ i {
   font-size: 46px;
 }
 
+i[class*="fi fi-rr-arrow"]:hover {
+  cursor: pointer;
+}
+
 .text-wrapper-6 {
   width: fit-content;
   font-family: var(--title-16px-semibold-font-family);
@@ -830,18 +834,16 @@ i {
   position: relative;
   width: 546px;
   height: 284px;
-  background-size: 100% 100%;
+  background-size: 100% auto;
   left: 3rem;
 }
 
 .frame-39 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
+  padding:2rem;
   gap: 16px;
-  position: absolute;
-  top: 138px;
-  left: 0;
 }
 
 .text-wrapper-31 {
@@ -877,14 +879,14 @@ i {
   overflow: hidden;
 }
 
-.element-rice-wrapper {
+.element-item-wrapper {
   width: 210px;
   height: 222px;
   top: 31px;
   overflow: hidden;
 }
 
-.element-rice {
+.element-item {
   width: 210px;
   height: auto;
 }
@@ -897,27 +899,6 @@ i {
   gap: 8px;
 }
 
-.overlap-wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 270px;
-  height: 284px;
-  background-color: #82624e;
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.element-wrapper {
-  width: 210px;
-  height: 222px;
-}
-
-.element-e-cd-aa {
-  width: 201px;
-  height: 203px;
-  top: 8px;
-  left: 4px;
-}
 .fill-with-up-arrow-wrapper {
   display: flex;
   align-items: center;
