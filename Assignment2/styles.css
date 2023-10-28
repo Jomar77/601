@@ -321,6 +321,7 @@ i[class*="fi fi-rr-arrow"]:hover {
 }
 .category-choice:hover {
   background-color: #db4444;
+  color:#ffc81b;
   transition: 0.1s;
 }
 

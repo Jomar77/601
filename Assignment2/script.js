@@ -10,7 +10,5 @@ function toggleMenu() {
 }
 
 function Gotop() {
-    // with transition
     window.scrollTo({top:0,behavior:'smooth'});
-    
 }
