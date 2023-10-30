@@ -455,7 +455,10 @@ i[class*="fi fi-rr-arrow"]:hover {
   width: 140px;
   height: 140px;
   clip: auto;
+  object-fit: cover;
 }
+
+
 
 .frame-19 {
   display: flex;
