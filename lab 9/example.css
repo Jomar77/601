@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: rgb(255, 213, 136);
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+        ". left right ."
+        "bottom bottom bottom bottom";
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div h3 {
+    align-self: flex-start;
+}
+
+.support {
+    grid-area: left;
+}
+
+.quick-links {
+    grid-area: right;
+}
+
+.copyright {
+    grid-area: bottom;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    footer {
+        grid-template-areas: 
+            "left"
+            "right"
+            "bottom";
+    }
+    
+}

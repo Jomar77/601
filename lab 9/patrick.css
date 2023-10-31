@@ -1,0 +1,31 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1d1c1c;
+    top: 0;
+    width: 100%;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #fffb00;
+}
+body {
+    margin: 0;
+    font-family: Roboto;
+    background-color: #333;
+    color:#fff
+}
+img {
+    width: 100%;
+    height: auto;
+}
