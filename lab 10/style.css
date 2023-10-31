@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+main{
+    padding:0;
+    margin:0;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+
+}
+.a{
+    padding: 100px 80px;
+    background-color: aqua;
+}
+.b{
+    padding: 100px 80px;
+    background-color: blueviolet;
+}
+.c{
+    padding: 100px 80px;
+    background-color: red;
+}
+
+.active{
+    border: 5px solid #000;
+}
