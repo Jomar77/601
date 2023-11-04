@@ -9,6 +9,7 @@ body {
   padding: 0;
   width: 100vw;
   overflow-x: hidden;
+  font-family: "Poppins-Regular", Helvetica;
 }
 button {
   cursor: pointer;
@@ -23,9 +24,16 @@ main {
   margin: 4rem 0;
 }
 
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 .view {
   text-decoration: none;
-  padding: 0 10px;
+  padding: 5px 10px;
   background-color: rgba(219, 68, 68, 1);
   border-radius: 4px;
   text-decoration: none;
@@ -62,7 +70,7 @@ i[class*="fi fi-rr-search"] {
 
 .frame {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 190px;
 }
 
@@ -122,23 +130,7 @@ i[class*="fi fi-rr-search"] {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 34px;
-  position: relative;
-  flex: 0 0 auto;
-}
-
-.p {
-  position: relative;
-  width: fit-content;
-  opacity: 0.5;
-  font-family: var(--title-12px-regular-font-family);
-  font-weight: var(--title-12px-regular-font-weight);
-  color: var(--text-2);
-  font-size: var(--title-12px-regular-font-size);
-  letter-spacing: var(--title-12px-regular-letter-spacing);
-  line-height: var(--title-12px-regular-line-height);
-  white-space: nowrap;
-  font-style: var(--title-12px-regular-font-style);
+  gap: 12px;
 }
 
 .img {

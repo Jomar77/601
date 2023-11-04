@@ -12,7 +12,9 @@
     <div class="top-header"></div>
     <nav class="header">
       <div class="frame">
-        <div class="logo"><img class="dece-df-de" src="img/logo.png" /></div>
+        <div class="logo">
+          <img loading="lazy" class="dece-df-de" src="img/logo.png" />
+        </div>
         <div class="div">
           <div class="header-2">
             <a class="nav-button" href="index.html">Home</a>
@@ -29,12 +31,14 @@
         </div>
       </div>
       <div class="frame-2">
-        <div class="search-component-set">
-          <div class="frame-3">
-            <p class="p">What are you looking for?</p>
-            <i class="fi fi-rr-search"></i>
-          </div>
-        </div>
+        <form class="frame-3">
+          <input
+            type="text"
+            id="name"
+            placeholder="What are you looking for"
+          />
+          <i class="fi fi-rr-search"></i>
+        </form>
       </div>
     </nav>
     <main class="about">
