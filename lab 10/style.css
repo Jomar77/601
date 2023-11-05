@@ -16,14 +16,13 @@ main {
   height: 100vh;
 }
 
-
 .showBorder {
   padding: 100px 80px;
   transition: border 0.3s; /* Add a transition for the border only */
   border: 5px solid transparent; /* Start with a transparent border */
 }
 .showBorder.active {
-  border: 5px solid #000; /* Add the border for active elements */
+  border: 5px solid #000;
 }
 
 .a {

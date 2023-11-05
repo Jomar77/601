@@ -1064,52 +1064,43 @@ footer {
   overflow: hidden;
   box-shadow: var(--categogy-5);
 }
-.frame-5 .frame-6 {
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 32px;
-  top: 40px;
-  left: 31px;
-  display: inline-flex;
-  position: relative;
+
+.contact .frame-6 {
+  display: grid;
+
+  grid-template-rows: 0.2fr 1fr 0.2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-template-areas:
+    " name number email"
+    " message message message"
+    " message message message"
+    ". . submit ";
+
+  padding: 1rem;
+  grid-gap: 12px;
+  height: 100%;
 }
 
-.frame-5 .frame-7 {
-  align-items: flex-start;
-  gap: 16px;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
+#contact-message {
+  grid-area: message;
+}
+#contact-name {
+  grid-area: name;
+}
+#contact-number {
+  grid-area: number;
+}
+#contact-email {
+  grid-area: email;
+}
+#contact-submit {
+  grid-area: submit;
+}
+textarea {
+  resize: none;
 }
 
-.frame-5 .placebox-info {
-  position: relative;
-  width: 235px;
-  height: 50px;
-  background-color: var(--secondary);
-  border-radius: 4px;
-}
-.frame-5 .md-wrapper {
-  position: relative;
-  width: 737px;
-  height: 207px;
-  background-color: var(--secondary);
-  border-radius: 4px;
-}
-
-.frame-5 .button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 16px 48px;
-  position: relative;
-  flex: 0 0 auto;
-  background-color: var(--button-2);
-  border-radius: 4px;
-  all: unset;
-  box-sizing: border-box;
-}
 /* contact page end */
 
 /* about page  start */
@@ -1144,7 +1135,6 @@ footer {
 
 @media only screen and (max-width: 768px) {
   footer {
-    
     grid-template-columns: 0.25fr 0.5fr 1fr;
     grid-template-rows: 1.4fr 0.6fr;
     grid-template-areas:
