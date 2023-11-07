@@ -12,3 +12,8 @@ function toggleMenu() {
 function Gotop() {
     window.scrollTo({top:0,behavior:'smooth'});
 }
+
+function toggleMenu() {
+    let menuBox = document.getElementById('menubox');
+    menuBox.classList.toggle('active');
+}
