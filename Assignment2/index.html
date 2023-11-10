@@ -14,10 +14,10 @@
     <nav>
       <div class="top-header"></div>
       <div class="frame">
-        <div class="logo">
-          <img loading="lazy" class="dece-df-de" src="img/logo.png" />
-        </div>
         <ul class="options" id="menubox">
+          <li class="logo">
+            <img loading="lazy" class="dece-df-de" src="img/logo.png" />
+          </li>
           <li>
             <a href="index.html">Home</a>
           </li>
@@ -38,7 +38,9 @@
           <i class="fi fi-rr-search"></i>
         </form>
       </div>
-      <label><span id="menu" onclick="toggleMenu()">≡</span></label>
+      <label class="burger-menu"
+        ><span id="menu" onclick="toggleburger()">≡</span></label
+      >
     </nav>
     <section class="highlights-carousel">
       <div class="highlights-carousel-bg">
@@ -52,16 +54,12 @@
           </h6>
           <a href="shop.html" class="center view">Buy now!</a>
         </div>
-
-        <div class="image-holder">
-          <img
-            loading="lazy"
-            src="img/showcase.jpg"
-            alt="grocery"
-            width="496px"
-            height="352px;"
-          />
-        </div>
+        <img
+          class="showcase"
+          loading="lazy"
+          src="img/showcase.jpg"
+          alt="grocery"
+        />
       </div>
     </section>
     <section class="categories">
@@ -217,24 +215,27 @@
         </div>
       </div>
     </section>
-    <section class="highlights-2-bg">
+    <section>
       <div class="highlights-2-bg">
         <div class="highlights-2">
-          <div class="text-wrapper-23">Categories</div>
-          <div class="text-wrapper-17">Imported Frozen Fishes</div>
-          <div class="text-wrapper-18">
-            Grab the authentic fishes from the Philippines
-          </div>
+          <div class="text-wrapper-6">Categories</div>
+          <h4 class="wrap">Catch of the Day: Dive into Flavor with Authentic Filipino Fish!</h4>
+          <h6 >
+            
+            Embark on a culinary journey with our latest addition to the seafood
+            aisle – authentic fishes straight from the pristine waters of the
+            Philippines. At our grocery store, we take pride in offering you the
+            freshest and most flavorful catch of the day. Sourced directly from
+            trusted fishermen in the Philippines, our selection brings you the
+            true taste of the tropics. Immerse yourself in the rich and diverse
+            flavors that only genuine Filipino fish can provide.
+          </h6>
           <a href="frozen.html">
             <button class="view center">Buy Now!</button>
           </a>
         </div>
-        <div class="overlap-2">
-          <img
-            loading="lazy"
-            class="JBL-BOOMBOX-HERO"
-            src="img/Fish_Variety.jpg"
-          />
+        <div class="overlap-2 center-column">
+          <img loading="lazy" src="img/Fish_Variety.jpg" />
         </div>
       </div>
     </section>
