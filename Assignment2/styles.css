@@ -58,8 +58,6 @@ main {
   margin: 4rem 0px;
 }
 
-
-
 img {
   height: auto;
   max-width: 100%;
@@ -190,7 +188,7 @@ nav ul li:hover {
   align-items: center;
 }
 
-.header{
+.header {
   padding-bottom: 4rem;
   border-bottom: lightgrey 2px solid;
 }
@@ -885,7 +883,7 @@ i[class*="fi fi-rr-arrow"]:hover {
 .overlap-group-5 {
   background-image: url(img/CannedGoods_variety.jpg);
   height: 350px;
-  width:  100%;
+  width: 100%;
   position: relative;
   background-size: 100% auto;
 }
@@ -1299,11 +1297,11 @@ textarea {
     width: 330px;
     height: auto;
   }
-  .frame-38{
+  .frame-38 {
     display: flex;
     flex-direction: column;
   }
-  .new-arrival{
+  .new-arrival {
     width: 75vw;
     grid-template-columns: 1fr;
     gap: 1em 2%;
@@ -1314,13 +1312,32 @@ textarea {
       "Sauce";
   }
 
-  .contact{
+  .contact {
     flex-direction: column;
-  }
-  .about{
-    flex-direction: column;
+    gap: 0px;
   }
 
+  .contact .frame-5 {
+    width: 90vw;
+    margin: 0;
+  }
+
+  .contact .frame-8 {
+    width: 80vw;
+  }
+
+  .about {
+    flex-direction: column;
+    gap: 0px;
+  }
+  
+  .about .frame-5 {
+    width: 90vw;
+  }
+
+  .about .frame-8 {
+    width: 80vw;
+  }
 
   footer {
     grid-template-columns: 0.25fr 0.5fr 1fr;
@@ -1330,11 +1347,8 @@ textarea {
       ". quick-links . "
       "Copyright Copyright Copyright";
   }
-  main{
-    
-  }
 
-  .hide{
+  .hide {
     display: none;
   }
 
