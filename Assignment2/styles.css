@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
-h4{
+h4 {
   font-family: var(--heading-48px-semibold-font-family);
   font-weight: var(--heading-48px-semibold-font-weight);
   color: var(--text);
@@ -54,12 +54,15 @@ a {
 
 section,
 main {
-  margin: 4rem 0;
+  gap: 60px;
+  margin: 4rem 0px;
 }
+
+
 
 img {
   height: auto;
- max-width: 100%;
+  max-width: 100%;
 }
 
 input[type="text"] {
@@ -135,6 +138,7 @@ i[class*="fi fi-rr-search"] {
 .logo {
   width: 118px;
   height: 29px;
+  pointer-events: none;
 }
 
 .dece-df-de {
@@ -145,7 +149,7 @@ i[class*="fi fi-rr-search"] {
   height: 6em;
 }
 
-.wrap{
+.wrap {
   white-space: wrap;
 }
 
@@ -186,10 +190,9 @@ nav ul li:hover {
   align-items: center;
 }
 
-.header-3 {
-  position: relative;
-  width: 48px;
-  height: 24px;
+.header{
+  padding-bottom: 4rem;
+  border-bottom: lightgrey 2px solid;
 }
 
 .frame-3 {
@@ -365,7 +368,6 @@ i[class*="fi fi-rr-arrow"]:hover {
   position: relative;
 }
 
-
 .category-choice a {
   text-decoration: none;
   color: #ce9b7b;
@@ -528,8 +530,6 @@ i[class*="fi fi-rr-arrow"]:hover {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-  position: relative;
-  flex: 0 0 auto;
 }
 
 .text-wrapper-14 {
@@ -782,8 +782,6 @@ i[class*="fi fi-rr-arrow"]:hover {
 
 .explore {
   gap: 60px;
-  position: relative;
-  flex: 0 0 auto;
 }
 
 .frame-29 {
@@ -836,11 +834,6 @@ i[class*="fi fi-rr-arrow"]:hover {
 }
 
 .frame-wrapper {
-  display: flex;
-  width: 511px;
-  height: 511px;
-  background-image: url(./img/showcase.jpg);
-  background-size: 100% 100%;
 }
 
 .frame-35 {
@@ -883,21 +876,18 @@ i[class*="fi fi-rr-arrow"]:hover {
 }
 
 .frame-38 {
-  position: relative;
-  width: 570px;
-  height: 284px;
   background-color: #0d0d0d;
   border-radius: 4px;
-  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .overlap-group-5 {
   background-image: url(img/CannedGoods_variety.jpg);
+  height: 350px;
+  width:  100%;
   position: relative;
-  width: 546px;
-  height: 284px;
   background-size: 100% auto;
-  left: 3rem;
 }
 
 .frame-39 {
@@ -936,7 +926,6 @@ i[class*="fi fi-rr-arrow"]:hover {
   justify-content: space-between;
   width: 270px;
   height: 284px;
-  background-color: var(--text-2);
   border-radius: 4px;
   overflow: hidden;
 }
@@ -1065,6 +1054,39 @@ footer {
   position: absolute;
   top: 80px;
   left: 135px;
+}
+
+.new-arrival {
+  width: 75vw;
+  display: grid;
+  grid-template-columns: 1.2fr 0.9fr 0.9fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 1em 2%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "snackSection Canned-Goods Canned-Goods"
+    "snackSection sackRice Sauce";
+}
+
+.Canned-Goods {
+  grid-area: Canned-Goods;
+}
+
+.snackSection {
+  grid-area: snackSection;
+  background-image: url(./img/showcase.jpg);
+  background-size: 100% 100%;
+}
+
+.sackRice {
+  grid-area: sackRice;
+  background-color: #000000;
+}
+
+.Sauce {
+  background-color: #000000;
+  grid-area: Sauce;
 }
 
 .frame-47 {
@@ -1268,7 +1290,7 @@ textarea {
     align-items: center;
     justify-content: center;
   }
-  .highlights-2{
+  .highlights-2 {
     align-items: center;
     width: 85%;
   }
@@ -1276,6 +1298,20 @@ textarea {
   .overlap-2 {
     width: 330px;
     height: auto;
+  }
+  .frame-38{
+    display: flex;
+    flex-direction: column;
+  }
+  .new-arrival{
+    width: 75vw;
+    grid-template-columns: 1fr;
+    gap: 1em 2%;
+    grid-template-areas:
+      "snackSection"
+      "Canned-Goods"
+      "sackRice"
+      "Sauce";
   }
 
   footer {
@@ -1285,6 +1321,10 @@ textarea {
       ". support ."
       ". quick-links . "
       "Copyright Copyright Copyright";
+  }
+
+  .hide{
+    display: none;
   }
 
   .active {

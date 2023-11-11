@@ -10,26 +10,26 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="top-header"></div>
     <nav class="header">
+      <div class="top-header"></div>
       <div class="frame">
-        <div class="logo">
-          <img loading="lazy" class="dece-df-de" src="img/logo.png" />
-        </div>
-        <div class="div">
-          <div class="header-2">
-            <a class="nav-button" href="index.html">Home</a>
-          </div>
-          <div class="header-2">
-            <a class="nav-button" href="contact.html">Contact</a>
-          </div>
-          <div class="header-2">
-            <a class="nav-button" href="about.html">About</a>
-          </div>
-          <div class="header-2">
-            <a class="nav-button" href="shop.html">Shop</a>
-          </div>
-        </div>
+        <ul class="options" id="menubox">
+          <li class="logo">
+            <img loading="lazy" class="dece-df-de" src="img/logo.png" />
+          </li>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="shop.html">Shop</a>
+          </li>
+        </ul>
       </div>
       <div class="frame-2">
         <form class="frame-3">
@@ -37,6 +37,9 @@
           <i class="fi fi-rr-search"></i>
         </form>
       </div>
+      <label class="burger-menu"
+        ><span id="menu" onclick="toggleburger()">≡</span></label
+      >
     </nav>
     <main class="contact">
       <section class="frame-8">
