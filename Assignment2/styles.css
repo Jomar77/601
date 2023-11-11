@@ -1314,6 +1314,14 @@ textarea {
       "Sauce";
   }
 
+  .contact{
+    flex-direction: column;
+  }
+  .about{
+    flex-direction: column;
+  }
+
+
   footer {
     grid-template-columns: 0.25fr 0.5fr 1fr;
     grid-template-rows: 1.4fr 0.6fr 1fr;
@@ -1321,6 +1329,9 @@ textarea {
       ". support ."
       ". quick-links . "
       "Copyright Copyright Copyright";
+  }
+  main{
+    
   }
 
   .hide{
