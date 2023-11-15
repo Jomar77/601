@@ -905,7 +905,6 @@ i[class*="fi fi-rr-arrow"]:hover {
   font-style: var(--title-14px-regular-font-style);
 }
 
-
 .frame-41 {
   display: flex;
   flex-direction: column;
@@ -959,9 +958,6 @@ footer {
     ". support quick-links ."
     "Copyright Copyright Copyright Copyright";
 }
-.gap {
-}
-
 .support {
   grid-area: support;
 }
@@ -1215,9 +1211,6 @@ textarea {
 }
 
 @media only screen and (max-width: 768px) {
-  body {
-    width: 100%;
-  }
   nav ul {
     padding: 0;
     margin: 0;
@@ -1299,6 +1292,12 @@ textarea {
       "sackRice"
       "Sauce";
   }
+  .gap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
   .contact {
     flex-direction: column;
@@ -1318,7 +1317,7 @@ textarea {
     flex-direction: column;
     gap: 0px;
   }
-  
+
   .about .frame-5 {
     width: 90vw;
   }
@@ -1328,12 +1327,15 @@ textarea {
   }
 
   footer {
-    grid-template-columns: 0.25fr 0.5fr 1fr;
-    grid-template-rows: 1.4fr 0.6fr 1fr;
+    height: 450px;
+    align-items: center;
+    gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr;
     grid-template-areas:
-      ". support ."
-      ". quick-links . "
-      "Copyright Copyright Copyright";
+      " support "
+      " quick-links  "
+      " Copyright ";
   }
 
   .hide {
