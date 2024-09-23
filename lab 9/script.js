@@ -21,12 +21,10 @@ const images = [
 let i = 0;
 
 function imageChangeNext() {
-    let image = document.getElementById("image");
     i++;
     if (i >= images.length) {
         i = 0; 
     }
-    image.src = images[i];
     console.log(i);
 }
 
