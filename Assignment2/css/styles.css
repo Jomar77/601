@@ -1179,6 +1179,49 @@ textarea {
 }
 
 /* contact page end */
+.add-to-cart-btn {
+  background-color: #db4444; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.add-to-cart-btn:hover {
+  background-color: #f1a11a; /* Darker green on hover */
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.quantity-input {
+  width: 50px;
+  text-align: center;
+  margin: 0 5px;
+}
+
+.increase-btn,
+.decrease-btn {
+  background-color: #db4444;
+  color: white;
+  border: none;
+  padding: 1px 7px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.increase-btn:hover,
+.decrease-btn:hover {
+  background-color: #f1a11a;
+}
 
 /* about page  start */
 
@@ -1210,7 +1253,6 @@ textarea {
   object-fit: cover;
 }
 
-
 .checkout-nav ul {
   list-style: none;
   padding: 0;
@@ -1228,16 +1270,22 @@ textarea {
 }
 
 .checkout-main {
+  flex: 1;
   padding: 2em;
   background-color: #fff;
   margin: 2em auto;
   max-width: 1200px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
 }
 
 .checkout-container {
   display: flex;
+  flex: 1;
   justify-content: space-between;
+  padding-left: 8em;
+  padding-right: 8em;
 }
 
 .cart-section {
@@ -1245,6 +1293,8 @@ textarea {
   padding: 1em;
   background-color: #f9f9f9;
   border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
 }
 
 .cart-section h2 {
@@ -1255,6 +1305,7 @@ textarea {
 .cart-items {
   list-style: none;
   padding: 0;
+  flex: 1;
 }
 
 .cart-items li {
@@ -1270,9 +1321,18 @@ textarea {
   margin-right: 1em;
 }
 
+.cart-total {
+  text-align: right;
+  padding: 1em 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
 .form-section {
   width: 55%;
   padding: 1em;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-section h1 {
@@ -1316,19 +1376,6 @@ textarea {
   color: #fff;
   padding: 2em 0;
   text-align: center;
-}
-
-.checkout-footer .gap {
-  margin-bottom: 1em;
-}
-
-.checkout-footer h3 {
-  margin-bottom: 0.5em;
-}
-
-.checkout-footer p, .checkout-footer a {
-  color: #fff;
-  text-decoration: none;
 }
 @media only screen and (max-width: 768px) {
   nav ul {
@@ -1412,7 +1459,7 @@ textarea {
       "sackRice"
       "Sauce";
   }
-  .gap{
+  .gap {
     display: flex;
     flex-direction: column;
     align-items: center;
