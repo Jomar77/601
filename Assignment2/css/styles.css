@@ -17,7 +17,7 @@ h5 {
   width: fit-content;
   font-family: var(--title-16px-semibold-font-family);
   font-weight: var(--title-16px-semibold-font-weight);
-  color: var(--secondary-2);
+  color: #D96C3B;
   font-size: var(--title-16px-semibold-font-size);
   letter-spacing: var(--title-16px-semibold-letter-spacing);
   line-height: var(--title-16px-semibold-line-height);
@@ -110,7 +110,7 @@ nav {
 .view {
   text-decoration: none;
   padding: 5px 10px;
-  background-color: rgba(219, 68, 68, 1);
+  background-color: #D96C3B;
   border-radius: 4px;
   text-decoration: none;
   font-family: "Poppins-Regular", Helvetica;
@@ -121,7 +121,7 @@ nav {
 }
 .view:hover {
   color: #4e3b2f;
-  background-color: #f1a11a;
+  background-color: #F4A259;
   transition: 0.1s;
 }
 
@@ -175,7 +175,7 @@ nav ul li {
 
 nav ul li:hover {
   transition: 0.1s;
-  background-color: #ce9b7b;
+  background-color: #F4A259;
 }
 
 #menu {
@@ -311,7 +311,7 @@ nav ul li:hover {
   position: relative;
   width: 20px;
   height: 40px;
-  background-color: var(--secondary-2);
+  background-color: #D96C3B;
   border-radius: 4px;
 }
 
@@ -327,7 +327,7 @@ i[class*="fi fi-rr-arrow"]:hover {
   width: fit-content;
   font-family: var(--title-16px-semibold-font-family);
   font-weight: var(--title-16px-semibold-font-weight);
-  color: var(--secondary-2);
+  color: #D96C3B;
   font-size: var(--title-16px-semibold-font-size);
   letter-spacing: var(--title-16px-semibold-letter-spacing);
   line-height: var(--title-16px-semibold-line-height);
@@ -370,7 +370,7 @@ i[class*="fi fi-rr-arrow"]:hover {
   color: #ce9b7b;
 }
 .category-choice a:hover {
-  color: #ffc81b;
+  color: #E1B04E;
 }
 
 .category-choice {
@@ -385,8 +385,8 @@ i[class*="fi fi-rr-arrow"]:hover {
   border: #b3b3b3 1px solid;
 }
 .category-choice:hover {
-  background-color: #db4444;
-  color: #ffc81b;
+  background-color: #D96C3B;
+  color: #F4A259;
   transition: 0.1s;
 }
 
@@ -427,7 +427,7 @@ i[class*="fi fi-rr-arrow"]:hover {
   position: relative;
   width: 170px;
   height: 145px;
-  background-color: var(--secondary-2);
+  background-color: #D96C3B;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: var(--categogy-5);
@@ -556,7 +556,7 @@ i[class*="fi fi-rr-arrow"]:hover {
   margin-top: -1px;
   font-family: var(--title-16px-medium-font-family);
   font-weight: var(--title-16px-medium-font-weight);
-  color: var(--secondary-2);
+  color: #D96C3B;
   font-size: var(--title-16px-medium-font-size);
   letter-spacing: var(--title-16px-medium-letter-spacing);
   line-height: var(--title-16px-medium-line-height);
@@ -812,7 +812,7 @@ i[class*="fi fi-rr-arrow"]:hover {
   padding: 16px 48px;
   position: relative;
   flex: 0 0 auto;
-  background-color: rgba(219, 68, 68, 1);
+  background-color: #D96C3B;
   border-radius: 4px;
 }
 
@@ -1230,7 +1230,7 @@ textarea {
 
 /* contact page end */
 .add-to-cart-btn {
-  background-color: #db4444; /* Green background */
+  background-color: #D96C3B; /* Green background */
   color: white; /* White text */
   padding: 10px 20px; /* Padding */
   border: none; /* No border */
@@ -1241,7 +1241,7 @@ textarea {
 }
 
 .add-to-cart-btn:hover {
-  background-color: #f1a11a; /* Darker green on hover */
+  background-color: #F4A259; /* Darker green on hover */
 }
 
 .quantity-controls {
@@ -1258,7 +1258,7 @@ textarea {
 
 .increase-btn,
 .decrease-btn {
-  background-color: #db4444;
+  background-color: #D96C3B;
   color: white;
   border: none;
   padding: 1px 7px;
@@ -1270,7 +1270,7 @@ textarea {
 
 .increase-btn:hover,
 .decrease-btn:hover {
-  background-color: #f1a11a;
+  background-color: #F4A259;
 }
 
 /* about page  start */
@@ -1418,7 +1418,7 @@ textarea {
 }
 
 .checkout-form button:hover {
-  background-color: #555;
+  background-color: #F4A259;
 }
 
 .checkout-footer {
