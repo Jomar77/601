@@ -37,4 +37,47 @@ document.querySelectorAll('.decrease-btn').forEach(button => {
 });
 
 
+document.addEventListener('DOMContentLoaded', () => {
+    // Fade-in animation for sections
+    document.querySelectorAll('section').forEach(section => {
+      section.classList.add('fade-in');
+    });
+  
+    // Hover animation for buttons
+    document.querySelectorAll('.view').forEach(button => {
+      button.addEventListener('mouseenter', () => {
+        button.classList.add('scale-up');
+      });
+      button.addEventListener('mouseleave', () => {
+        button.classList.remove('scale-up');
+      });
+    });
+  
+    // Slide-in animation for navigation menu
+    const navMenu = document.querySelector('.nav-menu');
+    const burgerMenu = document.querySelector('.burger-menu');
+    burgerMenu.addEventListener('click', () => {
+      navMenu.classList.toggle('slide-in');
+    });
+  
+    // Bounce animation for icons
+    document.querySelectorAll('i[class*="fi"]').forEach(icon => {
+      icon.addEventListener('mouseenter', () => {
+        icon.classList.add('bounce');
+      });
+      icon.addEventListener('mouseleave', () => {
+        icon.classList.remove('bounce');
+      });
+    });
+  
+    // Smooth scroll for "Go to Top" button
+    document.querySelector('.fill-with-up-arrow-wrapper').addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  
+    // Fade-in animation for text elements
+    document.querySelectorAll('.text-wrapper-28, .text-wrapper-31').forEach(text => {
+      text.classList.add('fade-in');
+    });
+  });
   
