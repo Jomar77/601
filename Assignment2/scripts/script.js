@@ -36,35 +36,5 @@ document.querySelectorAll('.decrease-btn').forEach(button => {
     });
 });
 
-document.querySelectorAll('.add-to-cart-btn').forEach(button => {
-  button.addEventListener('click', async function() {
-      const productName = this.parentElement.querySelector('.text-wrapper-14').innerText;
 
-      try {
-          let response = await fetch('http://localhost:3000/check-stock', {
-              method: 'POST',
-              headers: {
-                  'Content-Type': 'application/json',
-              },
-              body: JSON.stringify({ productName: productName })
-          });
-
-          if (!response.ok) {
-              throw new Error(`HTTP error! status: ${response.status}`);
-          }
-
-          let data = await response.json();
-
-          if (data.available) {
-              // Code to add the item to the cart
-              console.log('Item added to cart');
-          } else {
-              // Code to handle out of stock scenario
-              console.log('Item out of stock');
-          }
-      } catch (error) {
-          console.error('Error:', error);
-      }
-  });
-});
   
