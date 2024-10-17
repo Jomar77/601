@@ -142,8 +142,7 @@ i[class*="fi fi-rr-search"] {
   top: 25%; /* Move the image vertically 50% from the top */
   left: 25%; /* Move the image horizontally 50% from the left */
   transform: translate(-25%, -25%);
-  width: 6em;
-  height: 6em;
+  scale: 1.25;
 }
 
 .wrap {
