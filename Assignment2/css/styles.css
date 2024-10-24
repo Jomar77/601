@@ -34,6 +34,7 @@ h6 {
   text-align: center;
   letter-spacing: var(--title-16px-regular-letter-spacing);
   line-height: var(--title-16px-regular-line-height);
+  text-align: right;
 }
 
 body {
@@ -147,6 +148,7 @@ i[class*="fi fi-rr-search"] {
 
 .wrap {
   white-space: normal;
+ text-align: right;
 }
 
 nav ul {
@@ -332,6 +334,9 @@ i[class*="fi fi-rr-arrow"]:hover {
   line-height: var(--title-16px-semibold-line-height);
   white-space: nowrap;
   font-style: var(--title-16px-semibold-font-style);
+  text-align: right;
+  margin-left: auto; /* This pushes it to the right */
+  margin-right: 0;
 }
 
 .frame-14 {
@@ -604,6 +609,7 @@ i[class*="fi fi-rr-arrow"]:hover {
   width: 100vw;
   gap: 1rem;
   background-color: #c4d6a1;
+  text-align: right;
 }
 
 .overlap-2 {
@@ -621,6 +627,7 @@ i[class*="fi fi-rr-arrow"]:hover {
   flex-direction: column;
   justify-content: space-evenly;
   width: 40vw;
+  text-align: right;
 }
 
 .text-wrapper-17 {
