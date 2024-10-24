@@ -88,6 +88,12 @@ nav {
   height: 50px;
   width: auto;
 }
+.top-border {
+  border-bottom: lightgrey 5px solid;
+  border-top: lightgrey 5px solid;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 .top-header {
   grid-area: top-header;
@@ -129,6 +135,26 @@ nav {
   gap: 1rem;
 }
 
+/* Define the animation */
+@keyframes hoverAnimation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+/* Animation class */
+.animate-hover {
+  animation: hoverAnimation 0.5s forwards;
+}
+
+/* Reset animation */
+.reset-hover {
+  animation: hoverAnimation 0.5s reverse forwards;
+}
+
 i[class*="fi fi-rr-search"] {
   font-size: 18px;
 }
@@ -148,7 +174,7 @@ i[class*="fi fi-rr-search"] {
 
 .wrap {
   white-space: normal;
- text-align: right;
+  text-align: right;
 }
 
 nav ul {
@@ -235,8 +261,6 @@ nav ul li:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: lightgrey 2px solid;
-  border-top: lightgrey 2px solid;
 }
 
 .text-wrapper-3 {
@@ -374,10 +398,12 @@ i[class*="fi fi-rr-arrow"]:hover {
   color: #ce9b7b;
 }
 .category-choice a:hover {
+  transform: scale(1.1);
   color: #e1b04e;
 }
 
 .category-choice {
+  transition: transform 0.5s ease-in-out;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -391,7 +417,6 @@ i[class*="fi fi-rr-arrow"]:hover {
 .category-choice:hover {
   background-color: #d96c3b;
   color: #f4a259;
-  transition: 0.1s;
 }
 
 .img-3 {
